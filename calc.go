@@ -37,7 +37,7 @@ func calculate (a,b,op string ) string {
 		nret = na/nb
 	default : 	
 	fmt.Println("unknown operation")
-	os.Exit(-11)
+	os.Exit(-13)
 	}
 
 return  fmt.Sprintf("%d%s%d=%d", na,op,nb,nret)
